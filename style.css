@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.page-container {
+	background-color: #e6f2ff;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	animation: page-anim 8s ease infinite;
+}
+
+
+
+
+.form-container {
+	background: linear-gradient(90deg, #c9e7f1, #97c6e1, #69a7d0, #4c8ebb);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	border-radius: 10px;
+	padding: 200px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+	animation: text-anim 3s ease-in-out alternate infinite;
+	font-family: 'Open Sans', sans-serif;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	
+	font-family: 'Open Sans', sans-serif;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	
+	font-family: 'Open Sans', sans-serif;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	
+	font-family: 'Open Sans', sans-serif;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+@keyframes text-anim {
+	from {
+		color: #56585e;
+		transform: scale(1);
+	}
+	to {
+		color: #0d1011;
+		transform: scale(1.2);
+	}
+}
+
+form {
+	max-width: 500px;
+	margin: auto;
+}
+
+label, input, textarea {
+	display: block;
+	margin-bottom: 10px;
+}
+
+label {
+	font-weight: bold;
+}
+
+input, textarea {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
